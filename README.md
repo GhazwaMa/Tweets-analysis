@@ -104,9 +104,9 @@ Languages used in the tweets are mainly English and Swahili. The latter has no s
 This approach uses the technique of creating a set of words that can be confidently classified as belonging to a particular category. iN OUR CASE "CORONA" AND "COVID"
 
 In this example we used 3 techniques popular for computing similarity score between documents:
-### 1. Word2Vec: 
+### 1. Cosine Similarity:: 
 Cosine similarity is a metric used to measure how similar documents are irrespective of their size. Mathematically, it measures the cosine of the angle between two vectors projected in a multi-dimensional space. This would involve creating word vectors for the set of words and all the tweets then performing the cosine similarity. TFIDF (bag of words model) Vectorizer would be ideal for the vectorization.
-### 2. Jaccard Similarity: 
+### 2. Word2Vec: 
 Word Embedding is a language modeling technique used for mapping words to vectors of real numbers. It represents words or phrases in vector space with several dimensions. 
 Applications of Word Embedding :
 ```js
