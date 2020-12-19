@@ -118,3 +118,5 @@ Applications of Word Embedding :
 ### 3. Jaccard Similarity: 
 Jaccard similarity or intersection over union is defined as size of intersection divided by size of union of two sets.Takes only unique set of words for each sentence or document while cosine similarity takes total length of the vectors.
 
+# IV- KMeans Clustering
+Distance computation in k-Means weighs each dimension equally and hence care must be taken to ensure that unit of dimension shouldn’t distort relative near-ness of observations. Common method is to unit-standardize each dimension individually.
